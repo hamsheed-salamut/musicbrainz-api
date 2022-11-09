@@ -12,7 +12,7 @@ The application has provisioned two API endpoints to demonstrate the requests of
 > <base_url>: http://localhost:5000/
 
 1. **<base_url>/api/artist/search/<artist_name>/<page_number>/<page_size>** [HttpGet] - To search an artist by name
-2. **<base_url>/api/artist/album/<artist_id>/<album_count>** [HttpGet] - To search the first number (_n_) of albums for a given Artist Id- [HttpGet]  <base_url>/api/artist/search/<artist_name>/<page_number>/<page_size>
+2. **<base_url>/api/artist/album/<artist_id>/<album_count>** [HttpGet] - To search the first number (_n_) of albums for a given Artist Id
 
 ### Postman Collection
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/7113d8043b7e6062ca7e)  [![Download Collection](https://heremaps.github.io/postman-collections/img/download.svg)](../../raw/main/MusicBrainz-API-Collection.postman_collection)
