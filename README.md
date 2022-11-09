@@ -51,6 +51,7 @@ This application requires [.NET SDK 6.0.401](https://dotnet.microsoft.com/downlo
 - Serilog
 - RestSharp
 - Polly
+- Fluent Validation
 
 ### Infrastructure
 - [Visual Studio 2022](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjsqfbl5_7AhW6QEEAHXN_DzwQFnoECAkQAQ&url=https%3A%2F%2Fvisualstudio.microsoft.com%2Fvs%2F&usg=AOvVaw3y33DZLP-l6Snd4UKTRO38)
