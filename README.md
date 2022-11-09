@@ -15,7 +15,7 @@ The application has provisioned two API endpoints to demonstrate the requests of
 2. **<base_url>/api/artist/album/<artist_id>/<album_count>** [HttpGet] - To search the first number (_n_) of albums for a given Artist Id
 
 ### Postman Collection
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/7113d8043b7e6062ca7e)  [![Download Collection](https://heremaps.github.io/postman-collections/img/download.svg)](https://github.com/hamsheed-salamut/musicbrainz-api/blob/main/MusicBrainz_API_Collection.postman_collection.json)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/7113d8043b7e6062ca7e)  [![Download Collection](https://heremaps.github.io/postman-collections/img/download.svg)]([https://github.com/hamsheed-salamut/musicbrainz-api/blob/main/MusicBrainz_API_Collection.postman_collection.json](https://github.com/hamsheed-salamut/musicbrainz-api/blob/main/MusicBrainz-API-Collection.postman_collection.json)
 
 ### Swagger: API Documentation
 When running the WebAPI, the swagger UI can be accessed through the swagger endpint "/swagger/index.html"
