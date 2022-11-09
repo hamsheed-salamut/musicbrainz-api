@@ -1,0 +1,39 @@
+version: '3.6'
+
+services:
+  musicbrainz-seq:
+    image: datalust/seq:latest
+    container_name: musicbrainz-seq
+    ports:
+      - "5341:80"
+    environment:
+      - ACCEPT_EULA=Y
+    networks:
+      - musicbrainz-network
+  
+  musicbrainz-sql:
+    image: mcr.microsoft.com/mssql/server
+    container_name: musicbrainz-sql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password1
+    ports:
+      - "1433:1433"
+    networks:
+      - musicbrainz-network
+
+  musicbrainz-sqlserver-migrations:
+    build:
+      context: .
+      dockerfile: sql/MusicBrainz.SqlServer.Migrations/Dockerfile
+    container_name: musicbrainz-sqlserver-migrations
+    environment: 
+     - Settings:ConnectionString=Server=musicbrainz-sql;database=MusicBrainz;uid=sa;pwd=Password1
+    depends_on: 
+      - musicbrainz-sql
+    networks:
+      - musicbrainz-network
+
+networks:
+  musicbrainz-network:
+    name: musicbrainz-processing-network

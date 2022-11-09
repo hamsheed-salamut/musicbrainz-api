@@ -1,0 +1,10 @@
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\bin\Debug\netstandard2.1\Core.Common.deps.json
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\bin\Debug\netstandard2.1\Core.Common.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\bin\Debug\netstandard2.1\Core.Common.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.csprojAssemblyReference.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.AssemblyInfoInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.AssemblyInfo.cs
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.csproj.CoreCompileInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.Common\obj\Debug\netstandard2.1\Core.Common.pdb

@@ -1,0 +1,10 @@
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\netstandard2.1\Core.MusicBrainz.deps.json
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\netstandard2.1\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\netstandard2.1\Core.MusicBrainz.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.csprojAssemblyReference.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.AssemblyInfoInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.AssemblyInfo.cs
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.csproj.CoreCompileInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\netstandard2.1\Core.MusicBrainz.pdb

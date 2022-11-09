@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "658a6ea8-e318-4585-a817-e4a0f7b6b9a9",
+		"name": "MusicBrainz API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search an Artist by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/artist/search/john/1/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"artist",
+						"search",
+						"john",
+						"1",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Artist related album information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/artist/album/43bcca8b-9edc-4997-8343-122350e790bf/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"artist",
+						"album",
+						"43bcca8b-9edc-4997-8343-122350e790bf",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Health Checks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

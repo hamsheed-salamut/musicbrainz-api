@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{FA24F2C9-302E-47DE-88E9-85A1E7B5A4F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Common", "src\Core.Common\Core.Common.csproj", "{F4B51321-D1F9-4169-8E8A-A0F1AF3A9A10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.MusicBrainz", "src\Core.MusicBrainz\Core.MusicBrainz.csproj", "{5470D656-81CA-4E7A-AB0A-32639FC27E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.MusicBrainz", "src\WebApi.MusicBrainz\WebApi.MusicBrainz.csproj", "{C8FB7B4D-7360-4862-947B-BD79B093A953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{14BC5F30-1060-492A-AA4B-4801F66C12ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicBrainz.Tests", "test\MusicBrainz.Tests\MusicBrainz.Tests.csproj", "{BE0DBD5F-1026-4669-BDDF-8C631DAEE469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{833C61C3-9A67-43C8-A645-07CB99D7DF5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicBrainz.SqlServer.Migrations", "sql\MusicBrainz.SqlServer.Migrations\MusicBrainz.SqlServer.Migrations.csproj", "{807C4484-2A8B-48B5-905E-6EE0518EE1B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA24F2C9-302E-47DE-88E9-85A1E7B5A4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA24F2C9-302E-47DE-88E9-85A1E7B5A4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA24F2C9-302E-47DE-88E9-85A1E7B5A4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA24F2C9-302E-47DE-88E9-85A1E7B5A4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B51321-D1F9-4169-8E8A-A0F1AF3A9A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B51321-D1F9-4169-8E8A-A0F1AF3A9A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B51321-D1F9-4169-8E8A-A0F1AF3A9A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B51321-D1F9-4169-8E8A-A0F1AF3A9A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5470D656-81CA-4E7A-AB0A-32639FC27E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5470D656-81CA-4E7A-AB0A-32639FC27E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5470D656-81CA-4E7A-AB0A-32639FC27E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5470D656-81CA-4E7A-AB0A-32639FC27E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FB7B4D-7360-4862-947B-BD79B093A953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FB7B4D-7360-4862-947B-BD79B093A953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FB7B4D-7360-4862-947B-BD79B093A953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FB7B4D-7360-4862-947B-BD79B093A953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0DBD5F-1026-4669-BDDF-8C631DAEE469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0DBD5F-1026-4669-BDDF-8C631DAEE469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0DBD5F-1026-4669-BDDF-8C631DAEE469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0DBD5F-1026-4669-BDDF-8C631DAEE469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807C4484-2A8B-48B5-905E-6EE0518EE1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807C4484-2A8B-48B5-905E-6EE0518EE1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807C4484-2A8B-48B5-905E-6EE0518EE1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807C4484-2A8B-48B5-905E-6EE0518EE1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE0DBD5F-1026-4669-BDDF-8C631DAEE469} = {14BC5F30-1060-492A-AA4B-4801F66C12ED}
+		{807C4484-2A8B-48B5-905E-6EE0518EE1B3} = {833C61C3-9A67-43C8-A645-07CB99D7DF5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA56945F-8C20-421E-8946-C6E229C95A86}
+	EndGlobalSection
+EndGlobal

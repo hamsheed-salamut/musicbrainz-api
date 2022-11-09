@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aKGGxGT2b5QU29vJWJ2Ltki6RTx8408CyJaDHyJoVQk=",
+  "Source": "WebApi.MusicBrainz",
+  "BasePath": "_content/WebApi.MusicBrainz",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

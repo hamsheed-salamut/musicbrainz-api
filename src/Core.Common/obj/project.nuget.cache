@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hcX9s7eK+pXJ7FkHeRGEjJ7fj/CnaBDy5ojc2942bvn7uDiKPq5TOuYD+4IdTx+p/15EvlygTVPkMINy0Wo+2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hamsheed Salamut\\Documents\\music-brainz\\src\\Core.Common\\Core.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamsheed Salamut\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

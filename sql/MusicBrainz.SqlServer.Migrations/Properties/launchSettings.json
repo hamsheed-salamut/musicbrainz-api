@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MusciBrainz.SqlServer.Migrations": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

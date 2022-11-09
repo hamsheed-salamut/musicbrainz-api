@@ -1,0 +1,17 @@
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Core.MusicBrainz.deps.json
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Core.MusicBrainz.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.csproj.AssemblyReference.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.AssemblyInfoInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.AssemblyInfo.cs
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.csproj.CoreCompileInputs.cache
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\refint\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\ref\Core.MusicBrainz.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Core.Common.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Infrastructure.dll
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Core.Common.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\bin\Debug\net6.0-windows\Infrastructure.pdb
+C:\Users\Hamsheed Salamut\Documents\music-brainz\src\Core.MusicBrainz\obj\Debug\net6.0-windows\Core.MusicBrainz.csproj.CopyComplete
