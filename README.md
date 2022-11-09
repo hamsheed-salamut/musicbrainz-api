@@ -46,6 +46,12 @@ This will spin up both the infrastructure and the application components:
 ### Prerequisites
 This application requires [.NET SDK 6.0.401](https://dotnet.microsoft.com/download/dotnet/6.0) and [Docker](https://docs.docker.com/get-docker/)
 
+### Technologies
+- Entity Framework Core 6.0.10
+- Serilog
+- RestSharp
+- Polly
+
 ### Infrastructure
 - [Visual Studio 2022](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjsqfbl5_7AhW6QEEAHXN_DzwQFnoECAkQAQ&url=https%3A%2F%2Fvisualstudio.microsoft.com%2Fvs%2F&usg=AOvVaw3y33DZLP-l6Snd4UKTRO38)
 - [SQL Server Management Studio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiA45Lul5_7AhV_QEEAHeyaDWEQFnoECAkQAQ&url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fsql%2Fssms%2Fdownload-sql-server-management-studio-ssms&usg=AOvVaw0TPW4X7tQpP06G9E4MhgHo) or [TablePlus](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiI85jll5_7AhXJWMAKHWLkDI8QFnoECBEQAQ&url=https%3A%2F%2Ftableplus.com%2F&usg=AOvVaw2dp9FCTlTEcO-V0CiNSE8M)
@@ -69,4 +75,13 @@ By default when the `docker-compose.infra.yml` will be executed, a database `Mus
 Health checks reports for this application are exposed as a HTTP endpoint. Ping `http://localhost:5000/health` to get the entire report.
 
 ````{"Status":"Healthy","HealthChecks":[],"HealthCheckDuration":"00:00:00.0000715"}````
+
+## Unit Tests
+For unit tests we use xUnit. These tests cover validators and repository.
+
+To run unit tests, run `dotnet cake` or `dotnet cake --target=__UnitTest`
+
+## Instrumentation
+Serilog sink has been used that writes events to the Seq structured log server.
+
 
